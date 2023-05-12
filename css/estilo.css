@@ -99,6 +99,20 @@
     height: 100vh;
  }
 
- main.page3 {
-    height:  calc(200vh);
+ main.ancora {
+    height:  calc(600vh);
+ }
+
+ main section{
+   padding: 2rem;
+ }
+
+ main a{
+   padding: 0rem 1rem;
+   text-decoration: none;
+   color: black
+ }
+
+ main section.resposta a{
+   color: rgb(162, 71, 248);
  }
