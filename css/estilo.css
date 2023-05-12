@@ -1,59 +1,91 @@
+
 * {
     margin: 0;
     padding: 0;
     outline: 0;
     box-sizing: border-box;
-}
-
-header {
+ }
+ 
+ 
+ header {
     background-image: url("../imgs/baner.jpg");
     background-repeat: no-repeat;
     height: 5rem;
-}
-
-main nav {
-    display: flex;
+    background-size: cover;
+    text-align: center;
+ }
+ 
+ 
+ main {
+    height:  calc(100vh - 8rem);
+ }
+ 
+ 
+ main nav {
     background-color: rgb(66, 166, 206);
-}
-
-main nav h2 {
+    display: flex;
+    justify-content: center;
+ }
+ 
+ 
+ main nav h2 {
     padding: 0.5rem 5rem;
     color: white;
     text-shadow: 0.1rem 0.1rem 0rem black;
-}
-
-h1 {
+ }
+ 
+ 
+ h1 {
     color: white;
     text-shadow: 0.1rem 0.1rem 0rem black;
-}
-
-main h2 {
+ }
+ 
+ 
+ main h2 {
     padding: 2rem 1rem;
-}
-
-main p {
+ }
+ 
+ 
+ main p {
     padding: 0.5rem 1rem;
-}
-
-main li {
+ }
+ 
+ 
+ main li {
     padding: 1rem 3rem;
     list-style-type: upper-roman;
-}
-
-main li.quadrado {
+ }
+ 
+ 
+ main li.quadrado {
     list-style-type: square;
-}
-
-footer {
-    background-color: rgb(159, 159, 255);
+ }
+ 
+ 
+ footer {
+    background-color: rgb(66, 166, 206);
     height: 3rem;
-}
-
-main nav a {
+ }
+ 
+ 
+ main nav a {
     text-decoration: none;
-}
-
-main table thead tr th, table tr td{
-    border: 0.1rem solid black;
+ }
+ 
+ 
+ table thead tr th, table tr td{
+    border: 0.2rem solid black;
     padding: 2rem;
-}
+ }
+ 
+ main div {
+    height: 40rem;
+    width: 110rem;
+ }
+
+ table{
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+ }
+ 
