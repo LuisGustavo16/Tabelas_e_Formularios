@@ -39,57 +39,67 @@
     justify-content: center;
  }
 
+ main.ancora {
+   height:  calc(600vh);
+}
+
+main section{
+  padding: 2rem;
+}
+
+main a{
+  padding: 0rem 1rem;
+  text-decoration: none;
+  color: black
+}
+
+main section.resposta a{
+  color: rgb(162, 71, 248);
+}
+
+main h2 {
+   padding: 2rem 1rem;
+}
+
+
+main p {
+   padding: 0.5rem 1rem;
+}
+
+
+main li {
+   padding: 1rem 3rem;
+   list-style-type: upper-roman;
+}
+
+
+main li.quadrado {
+   list-style-type: square;
+}
+
+main nav a {
+   text-decoration: none;
+}
+
+main div {
+   height: 40rem;
+   width: 110rem;
+   padding-left: 12rem;
+   padding-top: 2rem;
+}
+
  h1 {
     color: white;
     text-shadow: 0.1rem 0.1rem 0rem black;
  }
- 
- 
- main h2 {
-    padding: 2rem 1rem;
- }
- 
- 
- main p {
-    padding: 0.5rem 1rem;
- }
- 
- 
- main li {
-    padding: 1rem 3rem;
-    list-style-type: upper-roman;
- }
- 
- 
- main li.quadrado {
-    list-style-type: square;
- }
- 
- 
- footer {
-    background-color: rgb(66, 166, 206);
-    height: 3rem;
- }
- 
- 
- main nav a {
-    text-decoration: none;
- }
- 
+  
  
  table thead tr th, table tr td{
     border: 0.2rem solid black;
     padding: 2rem;
- }
- 
- main div {
-    height: 40rem;
-    width: 110rem;
-    padding-left: 12rem;
-    padding-top: 2rem;
- }
+ } 
 
- table{
+table{
     border-collapse: collapse;
     width: 100%;
     height: 100%;
@@ -99,20 +109,8 @@
     height: 100vh;
  }
 
- main.ancora {
-    height:  calc(600vh);
- }
+ footer {
+   background-color: rgb(66, 166, 206);
+   height: 3rem;
+} 
 
- main section{
-   padding: 2rem;
- }
-
- main a{
-   padding: 0rem 1rem;
-   text-decoration: none;
-   color: black
- }
-
- main section.resposta a{
-   color: rgb(162, 71, 248);
- }
